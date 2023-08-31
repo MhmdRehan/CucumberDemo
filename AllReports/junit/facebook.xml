@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="39.213348">
+<testcase classname="To validate the login function of facebook application" name="_2" time="10.570701">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at org.stepdefine.StepDefinition.user_have_to_enter_the_address_and(StepDefinition.java:88)&#13;&#10;&#9;at ✽.User have to enter the &quot;&lt;Email&gt;&quot; address and &quot;&lt;password&gt;&quot;(src/test/resources/featureFile/login.feature:9)&#13;&#10;"><![CDATA[When User have to enter the url.............................................passed
+When User have to enter the "<Email>" address and "<password>"..............failed
+And User have to click the login button.....................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.stepdefine.StepDefinition.user_have_to_enter_the_address_and(StepDefinition.java:88)
+	at ✽.User have to enter the "<Email>" address and "<password>"(src/test/resources/featureFile/login.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="To validate the login function of facebook application" name="_3" time="9.517086">
+<system-out><![CDATA[When User have to enter the url.............................................passed
+When User have to enter the valid "Java" and invalid "JDK_1.8"..............passed
+And User have to click the login button.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login function of facebook application" name="_4" time="10.029263">
+<system-out><![CDATA[When User have to enter the url.............................................passed
+When User have to enter the valid "Selenium" and invalid "Sel-098"..........passed
+And User have to click the login button.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login function of facebook application" name="_5" time="9.096298">
+<system-out><![CDATA[When User have to enter the url.............................................passed
+When User have to enter the valid "GIT" and invalid "gt_1223"...............passed
+And User have to click the login button.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
